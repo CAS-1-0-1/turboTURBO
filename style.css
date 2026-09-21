@@ -9,7 +9,6 @@ body {
   background-color: #f2f3f7;
 }
 
-/* Navbar */
 .navbar {
   background-color: #ca1016;
   display: flex;
@@ -72,7 +71,6 @@ h2 {
   font-size: 18px;
 }
 
-/* Cars Grid */
 .cars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -124,7 +122,6 @@ h2 {
   color: #8d94ad;
 }
 
-/* Detal Səhifə Stili */
 .detail-wrapper {
   background: #fff;
   padding: 25px;
