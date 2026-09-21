@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "marka": "BMW",
+    "model": "M5 CS",
+    "year": 2022,
+    "engine": 4.4,
+    "price": 140000,
+    "currency": "AZN",
+    "gearbox": "Avtomat",
+    "mileage": 12000,
+    "power": 635,
+    "isNew": false,
+    "cover": "images/bmw1.jpg"
+  },
+  {
+    "id": 2,
+    "marka": "BMW",
+    "model": "X5 M",
+    "year": 2023,
+    "engine": 4.4,
+    "price": 165000,
+    "currency": "AZN",
+    "gearbox": "Avtomat",
+    "mileage": 5000,
+    "power": 625,
+    "isNew": false,
+    "cover": "images/bmw2.jpg"
+  },
+  {
+    "id": 3,
+    "marka": "BMW",
+    "model": "M4 Competition",
+    "year": 2024,
+    "engine": 3.0,
+    "price": 155000,
+    "currency": "AZN",
+    "gearbox": "Avtomat",
+    "mileage": 0,
+    "power": 510,
+    "isNew": true,
+    "cover": "images/bmw3.jpg"
+  },
+  {
+    "id": 4,
+    "marka": "BMW",
+    "model": "740i",
+    "year": 2021,
+    "engine": 3.0,
+    "price": 110000,
+    "currency": "AZN",
+    "gearbox": "Avtomat",
+    "mileage": 34000,
+    "power": 333,
+    "isNew": false,
+    "cover": "images/bmw4.jpg"
+  },
+  {
+    "id": 5,
+    "marka": "Honda",
+    "model": "Civic Type R",
+    "year": 2023,
+    "engine": 2.0,
+    "price": 68000,
+    "currency": "AZN",
+    "gearbox": "Mexanika",
+    "mileage": 8000,
+    "power": 315,
+    "isNew": false,
+    "cover": "images/honda1.jpg"
+  }
+]
