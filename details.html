@@ -22,7 +22,55 @@
     <main class="container">
       <div id="car-detail-container"></div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- EDIT MODAL (YENİ ƏLAVƏ) -->
+    <div class="modal-overlay" id="edit-modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-edit-modal">&times;</span>
+        <h3>Elana Düzəliş Et</h3>
+        <form id="edit-car-form">
+          <input type="text" id="edit-marka" placeholder="Marka" required />
+          <input type="text" id="edit-model" placeholder="Model" required />
+          <input type="number" id="edit-year" placeholder="İl" required />
+          <input
+            type="number"
+            step="0.1"
+            id="edit-engine"
+            placeholder="Mühərrik"
+            required
+          />
+          <input type="number" id="edit-price" placeholder="Qiymət" required />
+          <select id="edit-currency">
+            <option value="AZN">AZN</option>
+            <option value="USD">USD</option>
+          </select>
+          <select id="edit-gearbox">
+            <option value="Avtomat">Avtomat</option>
+            <option value="Mexanika">Mexanika</option>
+          </select>
+          <input
+            type="number"
+            id="edit-mileage"
+            placeholder="Yürüş (km)"
+            required
+          />
+          <input type="number" id="edit-power" placeholder="At gücü" required />
+          <input
+            type="text"
+            id="edit-cover"
+            placeholder="Şəkil yolu"
+            required
+          />
+          <label
+            ><input type="checkbox" id="edit-isNew" /> Yeni maşındır?</label
+          >
+          <button type="submit" class="btn-submit">Yadda saxla</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./axios.min.js"></script>
+
     <script src="./details.js"></script>
   </body>
 </html>

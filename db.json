@@ -1,10 +1,9 @@
 {
   "cars": [
     {
-      "id": "1",
       "marka": "BMW",
       "model": "M5 CS",
-      "year": 2022,
+      "year": 2000,
       "engine": 4.4,
       "price": 140000,
       "currency": "AZN",
@@ -12,7 +11,8 @@
       "mileage": 12000,
       "power": 635,
       "isNew": false,
-      "cover": "images/bmw1.jpg"
+      "cover": "images/bmw1.jpg",
+      "id": "1"
     },
     {
       "id": "2",
@@ -69,20 +69,6 @@
       "power": 315,
       "isNew": false,
       "cover": "images/honda1.jpg"
-    },
-    {
-      "marka": "Mercedec",
-      "model": "e220",
-      "year": 1999,
-      "engine": 2,
-      "price": 12000,
-      "currency": "AZN",
-      "gearbox": "Avtomat",
-      "mileage": 340000,
-      "power": 200,
-      "isNew": false,
-      "cover": "https://da4dkroembtou.cloudfront.net/wp-content/uploads/2024/02/Mercedes-Benz_E200_A.jpeg",
-      "id": "hhNQU0C"
     }
   ]
 }

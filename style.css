@@ -221,3 +221,87 @@ h2 {
   font-weight: bold;
   margin-top: 5px;
 }
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn-edit {
+  flex: 1;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-edit:hover {
+  background-color: #0056b3;
+}
+
+.btn-delete {
+  flex: 1;
+  background-color: #ca1016;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: #a70d12;
+}
+
+/* Edit formunun daxili input boşluqları */
+#edit-car-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+#edit-car-form input,
+#edit-car-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Axtarış paneli dizaynı */
+.search-wrapper {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+#search-input {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+#search-input:focus {
+  border-color: #ca1016;
+}
+
+.no-result {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  padding: 30px 0;
+}
